@@ -1,0 +1,279 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/batik.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.container{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    background: black;
+    margin-bottom: -30px;
+}
+/*navbar*/
+.nav{
+    width: 100%;
+    height: 80px;
+    background: aqua;
+    padding: 10px 15px;
+    line-height: 80px;
+    font-size: 15pt;
+    position: fixed;
+}
+.nav-icon1{
+    width: 65px;
+    height: 65px;
+    padding: 5px 5px;
+    margin-left: 50px;
+    float: left;
+    background: white;
+    border: 3px solid black;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.nav-icon2{
+    width: 73px;
+    height: 73px;
+    padding: 3px 3px;
+    margin-right: 80px;
+    float: right;
+    background: black;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.nav nav{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: bold;
+}
+.nav nav a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+.nav nav a:hover{
+    color: aqua;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+/*button home*/
+.button{
+    width: 80px;
+    height: 80px;
+    float: initial;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    border: none;
+    background: rgb(48, 255, 48);
+    border: 5px solid white;
+    border-radius: 50% 25px;
+}
+.button img{
+    width: 80%;
+    padding: 5px 5px;
+}
+/*home*/
+.home{
+    background-image: url(../image/guitar-home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 650px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    padding-top: 250px;
+    
+}
+.back-home{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.back-home h1{
+    color: aqua;
+    background: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-weight: 500;
+    font-size: 18pt;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.back-home a{
+    text-decoration: none;
+}
+.back-home a button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: black;
+    background-color: aqua;
+    display: block;
+    margin: auto;
+    font-size: 16pt;
+    font-family: arial;
+    border-radius: 15px;
+}
+.back-home a button:hover{
+    background: black;
+    color: aqua;
+}
+/*arti*/
+.arti{
+    text-align: center;
+    padding-top: 100px;
+    font-family: sans-serif;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.back-arti{
+    text-align: center;
+}
+.back-arti h1{
+    color: aqua;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.back-arti img{
+    border-radius: 15px;
+    width: 60%;
+    text-align: center;
+}
+.def-arti p{
+    width: 60%;
+    font-size: 15pt;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: aqua;
+}
+/*Bagian*/
+.bagian{
+    color: aqua;
+    font-family: sans-serif;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+}
+.back-bagi h1{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.back-bagi img{
+    border-radius: 15px;
+}
+.list{
+    font-size: 15pt;
+    text-align: left;
+    font-family: sans-serif;
+}
+/*Jenis*/
+.jenis{
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    color: aqua;
+    text-align: center;
+    font-family: sans-serif;
+}
+.back-jenis h1{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.box{
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid aqua;
+    margin-bottom: 50px;
+    padding: 20px 20px;
+}
+.box img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.box-def h2{
+    font-size: 18px;
+    text-align: left;
+}
+/*contact*/
+.kontak{
+    color: lime;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.back-kontak{
+    margin-top: 5px;
+    border: 3px solid lime;
+    border-radius: 50% 25px;
+}
+.kontak h1{
+    font-size: 22px;
+    margin-right: 3%;
+    text-align: right;
+    margin-bottom: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.tak-img img{
+    border-radius: 50% 25px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid lime;
+    margin-bottom: 50px;
+}
+.tak-def h1{
+    font-size: 15px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tak-def h2{
+    font-size: 13px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.tak-def h3{
+    font-size: 12px;
+    width: 80%;
+}
+/*Copyright*/
+.copy{
+    background: aqua;
+    width: 100%;
+    height: 60px;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    padding: 15px 0px;
+}
+.copy h1{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.copy h1 a{
+    text-decoration: none;
+}

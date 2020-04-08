@@ -1,0 +1,23 @@
+*{
+    scroll-behavior: smooth;
+}
+@media (max-width: 764px){
+    .home{
+        padding-top: 150px;
+        height: 400px;
+    }
+    .back-home{
+        width: 100%;
+    }
+    .arti{
+        padding: 0;
+        width: 100%;
+    }
+    .back-arti{
+        width: 100%;
+
+    }
+    .nav nav{
+        width: 100%;
+    }
+}
